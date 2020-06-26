@@ -1,0 +1,24 @@
+*****************************
+******** CON LISTAS *********
+*****************************
+
+l ( ['e',....'#'] ).
+
+r :- sr(x), cd (L), member(x,L), m(right).        BUSCAR EN AL LISTA SI ESTA LO QUE HAS VISTO A LA DERECHA
+
+
+mira lo que hay a la derecha para que se cumpla busca en al lista para que se iguale. COn esto puede escapar de cualquier enemigo sin tener que fijarte en que enemigo es, solo tiene que encontrarse en la lista.
+
+******************************
+******** SIN LISTAS **********
+******************************
+
+e('E').
+e('<').
+e('>').
+                                             ES LO MISMO QUE LA LISTA, EN VEZ DE PONER LOS DATOS EN LA LISTA, LOS LISTAS MEDIANTE HECHOS.
+
+r:- sr(x), e(x,N), m(right);
+
+
+Resumen: son los mismo solo cambia la forma en que guardamos los datos.
